@@ -1,0 +1,26 @@
+{
+    "compilerOptions": {
+        "jsx": "react",
+        "lib": ["es2020", "DOM"],
+        "target": "ES2015",
+        "noEmit": true,
+        "strict": true,
+        "noImplicitAny": false,
+        "allowSyntheticDefaultImports": true,
+        "esModuleInterop": true,
+        "isolatedModules": true,
+        "moduleResolution": "node",
+        "baseUrl": "./",
+        "paths": {
+            "@components": ["./src/components"],
+            "@components/*": ["./src/components/*"],
+            "@hooks": ["./src/hooks"],
+            "@hooks/*": ["./src/hooks/*"],
+            "@apis/*": ["./src/apis/*"],
+            "@utils/*": ["./src/utils/*"],
+            "@stores/*": ["./src/stores/*"],
+            "@src/*": ["./src/*"]
+        }
+    },
+    "exclude": ["node_modules", "dist"]
+}

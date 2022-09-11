@@ -1,0 +1,11 @@
+{
+    "extends": "react-app",
+    "plugins": ["prettier"],
+    "rules": {
+        "prettier/prettier": "warn",
+        "react-hooks/rules-of-hooks": "off",
+        "react-hooks/exhaustive-deps": "off"
+    },
+
+    "ignorePatterns": ["node_modules/*", "build/*", "public/*", "*.config.**"]
+}
